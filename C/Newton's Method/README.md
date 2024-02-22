@@ -13,6 +13,6 @@ gcc filename.c -lm
 1. Initiate x<sub>0</sub> as an arbitrary value. Let n=0.
 
 
-$$ x_n = x<sub>n</sub> - {f(x<sub>n</sub>) \over f'(x<sub>n</sub>)} $$
+$$ x_n+1 = x<sub>n</sub> - {f(x<sub>n</sub>) \over f'(x<sub>n</sub>)} $$
 
 
