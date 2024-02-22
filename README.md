@@ -1,3 +1,3 @@
 # CLI-programs
-Navigate through the folders to view the CLI programs I have made. 
-Each folder consists of programs created with different languages.
+Command Line Interface programs
+### Each folder consists of programs created with different languages.
