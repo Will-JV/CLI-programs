@@ -14,6 +14,7 @@ gcc filename.c -lm
 
 $$ x_{n+1} = x_n - {f(x_{n}) \over f'(x_{n})} $$
 
+
 2. Calculate $x_{n+1}$ with the above equation
 
 
