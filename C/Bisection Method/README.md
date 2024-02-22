@@ -16,3 +16,5 @@ gcc filename.c
 3. Let c=(a+b)/2. Calculate s=f(a)f(c).
 4. Set b=c if s<0, else set a=c. Return to step 2. 
 
+### Note
+Change function in program as accordingly
