@@ -15,6 +15,9 @@ gcc filename.c -lm
 $$ x_{n+1} = x_n - {f(x_{n}) \over f'(x_{n})} $$
 
 2. Calculate $x_{n+1}$ with the above equation.
-3. End if $|x_{n+1}-x_n|/|x_n| < e$. Else, let n=n+1 and repeat from step 2.
+3. End if $|x_{n+1}-x_n|/|x_n| < e$. Else, let n = n+1 and repeat from step 2.
+
+### (※) Note
+Change function in program as necessary
 
 
