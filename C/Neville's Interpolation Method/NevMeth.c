@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<math.h>
 
 double neville(double *a,double*b,double x, int n){
 	int i,xplus=1;					/*i=index, xplus=次数*/
@@ -28,13 +27,22 @@ int main(){
 	
 	n=n/2;
 	
-	double a[n],b[n];		/*a=x,b=y*/
+	double a[n],b[n];		//a=x,b=y
 	
 	for(i=0;i<n;i++){a[i]=temp[i];}
 	for(i=n;i<n*2;i++){b[i-n]=temp[i];}
 	
+	FILE *fptr;
+	fptr = fopen("graph.dat","w+");
 	for(x=1;x<=5;x=x+0.1){
 		y = neville(a,b,x,n);
-		printf("x = %f\ty = %f\n",x,y);
+		fprintf(fptr,"%f\t%f\n",x,y);
 	}
+	fclose(fptr);
+
+	char *data = "plot 'graph.dat' w l";
+	
+	FILE *gnuplotPipe = popen("gnuplot -persistent","w");
+	fprintf(gnuplotPipe,"%s \n",data);
+	fclose(gnuplotPipe);
 }
