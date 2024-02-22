@@ -16,4 +16,4 @@ sudo apt install gnuplot
 
 ## Algorithm
 
-![alt text](https://www.researchgate.net/publication/312530750/figure/fig4/AS:452259122290691@1484838385670/Nevilles-algorithm.png)
+![alt text](https://i.imgur.com/ufuv3.png)
