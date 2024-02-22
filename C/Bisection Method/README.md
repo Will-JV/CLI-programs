@@ -1,5 +1,7 @@
 #Bisection Method
 
+Nothing
+
 ##Usage
 
 To find the solution to a function
