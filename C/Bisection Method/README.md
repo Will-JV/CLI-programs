@@ -1,4 +1,5 @@
 #Bisection Method
+
 ##Usage
 To find the solution to a function
 
