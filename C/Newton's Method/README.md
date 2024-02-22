@@ -12,7 +12,7 @@ gcc filename.c -lm
 ## Algorithm
 1. Initiate x<sub>0</sub> as an arbitrary value. Let n=0.
 
+$$ x_{n+1} = x_n - {f(x_{n}) \over f'(x_{n})} $$
 
-$$ x_{n+1} = x<sub>n</sub> - {f(x_{n}) \over f'(x_{n})} $$
 
 
