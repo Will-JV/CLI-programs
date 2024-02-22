@@ -13,6 +13,6 @@ gcc filename.c -lm
 1. Initiate x<sub>0</sub> as an arbitrary value. Let n=0.
 
 $$ x_{n+1} = x_n - {f(x_{n}) \over f'(x_{n})} $$
-
+2. Calculate $x_{n+1}$ with the above equation
 
 
