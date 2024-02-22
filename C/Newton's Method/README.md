@@ -14,3 +14,4 @@ gcc filename.c -lm
 $$ x<sub>n+1</sub> = x<sub>n</sub> - {f(x<sub>n</sub>) \over f'(x<sub>n</sub>)} $$
 
 $$ \sqrt{e} $$
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
