@@ -2,8 +2,12 @@
 This method is used to find the solution to a function.
 
 ## Usage
+Type the commands below in the terminal
 ```bash
-
+gcc filename.c
+```
+```bash
+./a.out
 ```
 
 ## Algorithm
