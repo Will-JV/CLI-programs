@@ -7,6 +7,6 @@ Calculates using nested loop
 ## reversi_final
 Calculates using just 2 lists in a list. Example is as below:
 
-$$ Playing Field = [ ['B',NumberOfTiles] , ['W',NumberOf\Tiles] ] $$
+$$ Playing Field = [ ['B',NumberOfTiles] , ['W',NumberOfTiles] ] $$
 
 Updates of the list is done accordingly, where B is black and W is white.
