@@ -13,5 +13,9 @@ Input the necessary matrix values. NOTE: Matrix is in the form of
 
 $$ Ax = b $$
 
+If gnuplot is downloaded, type in the following command:
+```bash
+sudo apt install gnuplot
+```
 
 
