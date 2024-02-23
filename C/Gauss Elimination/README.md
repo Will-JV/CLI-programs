@@ -12,3 +12,9 @@ gcc filename.c -lm
 Input all the necessary initial matrix information and the solution will be shown. NOTE: The matrix is in the form of
 
 $$ Ax = b $$
+
+## Algorithm
+1. Input A,b
+2. Forward Elimination
+3. Backwards Substitution
+4. Output of solution x
