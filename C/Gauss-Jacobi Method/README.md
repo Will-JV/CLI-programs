@@ -12,3 +12,6 @@ gcc filename.c -lm
 Input the necessary matrix values. NOTE: Matrix is in the form of 
 
 $$ Ax = b $$
+
+
+
