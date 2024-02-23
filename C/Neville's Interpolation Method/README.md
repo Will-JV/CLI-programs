@@ -24,4 +24,4 @@ Let a function f be defined at points x<sub>0</sub>,x<sub>1</sub>,⋯,x<sub>k</s
 
 $$ P(x) = {{(x-x_j)P_{0,1,...,j-1,j+1,...,k}(x)-(x-x_i)P_{0,1,...,i-1,i+1,...,k}(x)} \over (x_i-x_j)}$$
 
-The $P_{0,1,...,j-1,j+1,...,k}$
+The interpolating polynomials can thus be generated recursively
