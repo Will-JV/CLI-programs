@@ -10,4 +10,5 @@ gcc filename.c -lm
 ./a.out
 ```
 Input the necessary matrix values. NOTE: Matrix is in the form of 
+
 $$ Ax = b $$
