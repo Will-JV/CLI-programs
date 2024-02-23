@@ -17,4 +17,4 @@ sudo apt install gnuplot
 ## Algorithm
 Let the introduced weight be ω such that 0<ω<2. If ω=1, the method is exactly the Gauss-Seidel method. If 0<ω<1, the algorithm is under-relaxed, else it's over-relaxed. The equation from Gauss-Seidel's method will be represented as follow with ω:
 
-$$ {x_{i}}^(k+1) = (1-ω){x_{i}}^(k) + ω({x_{i}}^(k+1)) $$
+$$ {x_{i}}^{(k+1)} = (1-ω){x_{i}}^{(k)} + ω({x_{i}}^{(k+1)}) $$
