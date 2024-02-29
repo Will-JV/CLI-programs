@@ -27,6 +27,7 @@ def main(lines):
                         if third in a[second]:
                             if first in a[third]:
                                 user_cycle += 1
+                                no = 1
                 if no == 0:
                     if third in a[first]:
                         if second in a[third]:
